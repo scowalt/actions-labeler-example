@@ -1,23 +1,24 @@
-# Declariatively define labels for a Github repository.
-# See https://github.com/b4b4r07/github-labeler
 labels:
-  - name: label1
-    description: First label
-    color: 9CCC65
-  - name: label2
-    description: Second label
-    color: FFA000
-  - name: label3
-    description: Third label
-    color: AAFF00
-  - name: docs
-    description: Documentation updates
-    color: DDDDDD
-
+- name: docs
+  description: Documentation updates
+  color: DDDDDD
+- name: label1
+  description: First label
+  color: 9CCC65
+- name: label2
+  description: Second label
+  color: FFA000
+- name: label3
+  description: Third label
+  color: AAFF00
+- name: new-label-from-github
+  description: I created this label in the Github UI
+  color: bfd4f2
 repos:
 - name: scowalt/actions-labeler-example
   labels:
+  - docs
   - label1
   - label2
   - label3
-  - docs
+  - new-label-from-github
