@@ -7,9 +7,13 @@ labels:
   - name: label2
     description: Second label
     color: FFA000
+  - name: label3
+    description: Third label
+    color: AAFF00
 
 repos:
 - name: scowalt/actions-labeler-example
   labels:
   - label1
   - label2
+  - label3
