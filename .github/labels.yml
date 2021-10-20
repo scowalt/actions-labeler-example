@@ -1,0 +1,15 @@
+# Declariatively define labels for a Github repository.
+# See https://github.com/b4b4r07/github-labeler
+labels:
+  - name: label1
+    description: First label
+    color: 9CCC65
+  - name: label2
+    description: Second label
+    color: FFA000
+
+repos:
+- name: scowalt/actions-labeler-example
+  labels:
+  - label1
+  - label2
