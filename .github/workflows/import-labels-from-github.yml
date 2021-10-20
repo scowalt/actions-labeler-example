@@ -31,4 +31,5 @@ jobs:
             ## WHY
             Current labels.yaml and existing labels don't match.
           branch: import-labels
+          base: main
           branch-suffix: timestamp
