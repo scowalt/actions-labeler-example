@@ -1,5 +1,5 @@
 # See https://github.com/b4b4r07/github-labeler
-name: Sync labels
+name: Write label changes to Github
 
 on:
   push:

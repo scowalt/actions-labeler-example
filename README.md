@@ -1,7 +1,8 @@
 # Labeling Github repositories with actions
 I couldn't find any great examples of using Actions to declarate and automate Github labeling, so I made one myself.
 
-## Adding labels to Github
-1. Labels are declaritively defined in [`labels.yml`](./.github/labels.yml)
-1. Labels are modified in the Github respoitory [`sync-labels.yml`](./.github/workflows/sync-labels.yml) on push. [See the labels](https://github.com/scowalt/actions-labeler-example/labels) that get created for the repository!
-1. Changes to `labels.yml` are validated with [`dryrun-sync-labels.yml`](./.github/workflows/dryrun-sync-labels.yml). [This pull request](https://github.com/scowalt/actions-labeler-example/pull/1) demonstrates this in action.
+## Label creation / modification / deletion
+- Labels are declaritively defined in [`labels.yml`](./.github/labels.yml)
+- Labels are modified in the Github respoitory [`sync-labels-from-respository.yml`](.github/workflows/sync-labels-from-respository.yml) on push. [See the labels](https://github.com/scowalt/actions-labeler-example/labels) that get created for the repository!
+- PR Changes to `labels.yml` are validated with [`dryrun-sync-labels.yml`](./.github/workflows/dryrun-sync-labels.yml). [This pull request](https://github.com/scowalt/actions-labeler-example/pull/1) demonstrates this in action.
+- [`sync-labels-from-github.yml`](.github/workflows/sync-labels-from-github.yml) will open a PR on the repository if any changes are made.
