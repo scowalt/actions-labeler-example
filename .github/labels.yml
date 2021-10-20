@@ -14,6 +14,9 @@ labels:
 - name: label3
   description: Third label
   color: AAFF00
+- name: new-label-ui
+  description: Created manually in the Github UI
+  color: fbca04
 repos:
 - name: scowalt/actions-labeler-example
   labels:
@@ -22,3 +25,4 @@ repos:
   - label1
   - label2
   - label3
+  - new-label-ui
