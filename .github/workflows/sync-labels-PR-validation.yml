@@ -1,6 +1,6 @@
 # Make sure the correct label changes will be applied
 # See https://github.com/b4b4r07/github-labeler#yaml-for-workflows-to-sync-labels-between-existing-one-and-defined-one
-name: Sync labels (dry run)
+name: Validate label changes
 
 on: [pull_request]
 
