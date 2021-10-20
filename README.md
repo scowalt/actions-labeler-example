@@ -1,4 +1,5 @@
-# Labelling Github repositories with actions
+# Labeling Github repositories with actions
+I couldn't find any great examples of using Actions to declarate and automate Github labeling, so I made one myself.
 
 ## Adding labels to Github
 1. Labels are declaritively defined in [`labels.yml`](./.github/labels.yml)
