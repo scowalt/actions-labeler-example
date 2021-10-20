@@ -3,7 +3,7 @@
 labels:
   - name: label1
     description: First label
-    color: 9CCC65
+    color: 9CCC64
   - name: label2
     description: Second label
     color: FFA000
