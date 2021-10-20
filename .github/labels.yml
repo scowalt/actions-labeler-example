@@ -13,6 +13,9 @@ labels:
   - name: docs
     description: Documentation updates
     color: DDDDDD
+  - name: CI
+    description: Changes to Github Actions
+    color: DEADBE
 
 repos:
 - name: scowalt/actions-labeler-example

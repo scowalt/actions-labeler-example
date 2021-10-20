@@ -1,0 +1,7 @@
+# Automatically label Github pull requests. Use labels from `labels.yml`
+# See https://github.com/actions/labeler#create-githublabeleryml
+docs:
+  - README.md
+
+CI:
+  - .github/workflows/**/*
