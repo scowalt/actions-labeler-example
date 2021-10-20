@@ -10,6 +10,9 @@ labels:
   - name: label3
     description: Third label
     color: AAFF00
+  - name: label4
+    description: Fourth label
+    color: 00FFAA
   - name: docs
     description: Documentation updates
     color: DDDDDD
