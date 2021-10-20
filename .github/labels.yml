@@ -10,6 +10,9 @@ labels:
   - name: label3
     description: Third label
     color: AAFF00
+  - name: docs
+    description: Documentation updates
+    color: DDDDDD
 
 repos:
 - name: scowalt/actions-labeler-example
@@ -17,3 +20,4 @@ repos:
   - label1
   - label2
   - label3
+  - docs
