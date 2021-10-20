@@ -1,4 +1,4 @@
-# Labeling Github repositories with actions
+# Labeling Github repositories with actions.
 I couldn't find any great examples of using Actions to declarate and automate Github labeling, so I made one myself.
 
 ## Creating / modifying / deleting labels
