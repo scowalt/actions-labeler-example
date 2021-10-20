@@ -9,4 +9,4 @@ I couldn't find any great examples of using Actions to declarate and automate Gi
 
 ## Automatically labeling PRs
 - [`labeler.yml`](.github/labeler.yml) defines the rules for labeling PRs.
-- [`pr-labeler.yml`](.github/workflows/pr-labeler.yml) is the action that labels PRs.
+- [`pr-labeler.yml`](.github/workflows/pr-labeler.yml) is the action that labels PRs. See [this pull request](https://github.com/scowalt/actions-labeler-example/pull/3) for an example
