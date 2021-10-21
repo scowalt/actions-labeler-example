@@ -5,3 +5,7 @@ docs:
 
 CI:
   - .github/workflows/**/*
+
+label1:
+  - .github/labeler.yml
+  - '*' # any changes to files in the root of the repository
