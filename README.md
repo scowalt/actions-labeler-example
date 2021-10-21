@@ -1,7 +1,7 @@
 # Labeling Github repositories with actions
 I couldn't find any great examples of using Actions to declarate and automate Github labeling, so I made one myself.
 
-## Creating / modifying / deleting labels
+## Creating / modifying / deleting labels.
 - [`labels.yml`](./.github/labels.yml) is where labels are declaritively defined
 - [`push-labels-to-github.yml`](.github/workflows/push-labels-to-github.yml) modifies the repo labels on push. [See the labels](https://github.com/scowalt/actions-labeler-example/labels) that get created for the repository!
 - [`sync-labels-PR-validation.yml`](.github/workflows/sync-labels-PR-validation.yml) validates PR Changes to `labels.yml`. [This pull request](https://github.com/scowalt/actions-labeler-example/pull/1) demonstrates this in action.
