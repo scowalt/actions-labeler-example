@@ -12,5 +12,4 @@ label1:
 
 nolimes:
   - fruits.md # any changes here will get labeled
-  - any: ['fruits/**/*']        # any new fruits will also get labeled
-    all: ['!fruits/limes/**/*'] # as long as they don't touch a lime!
+  - ['fruits/**/*', '!fruits/limes/**/*'] # any new fruits will also get labeled as long as they don't touch a lime!
