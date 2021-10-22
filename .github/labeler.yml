@@ -9,3 +9,8 @@ CI:
 label1:
   - .github/labeler.yml
   - '*' # any changes to files in the root of the repository
+
+nolimes:
+  - fruits.md # any changes here will get labeled
+  - any: ['fruits/**/*']        # any new fruits will also get labeled
+    all: ['!fruits/limes/**/*'] # as long as they don't touch a lime!
